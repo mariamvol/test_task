@@ -5,6 +5,7 @@ from geometry.utils import compute_area
 s1 = Circle(2)
 s2 = Triangle(3, 4, 5)
 
-print(compute_area(s1))  # 12.566...
+print(compute_area(s1))  # 12.566370614359172
 print(compute_area(s2))  # 6.0
 print(s2.is_right())     # True
+
